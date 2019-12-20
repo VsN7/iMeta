@@ -29,23 +29,23 @@ public class MetasController {
 	
 	
 	@GetMapping(produces="application/json")
-	public  @ResponseBody Iterable<Metas> listaVagas() {
+	public  @ResponseBody Iterable<Metas> listaMetas() {
 		Iterable<Metas> listaVagas = mr.findAll();
 		return listaVagas;
 	}
 	
 	@PostMapping()
-	public Metas CadastraVaga(@RequestBody @Valid Metas metas) {
+	public Metas CadastraMeta(@RequestBody @Valid Metas metas) {
 		return mr.save(metas);
 	}
 	
 	@DeleteMapping()
-	public Metas deletaVaga( @RequestBody Metas metas ) {
+	public Metas deletaMeta( @RequestBody Metas metas ) {
 		mr.delete(metas);
 		return metas;
 	}
 	@PutMapping("/{id}")
-	public Metas editartaVaga( @RequestBody Metas metas, @PathVariable Integer id ) {
+	public Metas editartaMeta( @RequestBody Metas metas, @PathVariable Integer id ) {
 		if(id != null)
 			return mr.save(metas);
 		else
