@@ -13,8 +13,8 @@
       >
         <material-card
           color="green"
-          title="Edit Profile"
-          text="Complete your profile"
+          title="Editar seus dados"
+          text="Complete seus dados"
         >
           <v-form>
             <v-container py-0>
@@ -24,24 +24,16 @@
                   md4
                 >
                   <v-text-field
-                    label="Company (disabled)"
-                    disabled/>
-                </v-flex>
-                <v-flex
-                  xs12
-                  md4
-                >
-                  <v-text-field
                     class="purple-input"
-                    label="User Name"
+                    label="Seu nome de usuário"
                   />
                 </v-flex>
                 <v-flex
                   xs12
-                  md4
+                  md8
                 >
                   <v-text-field
-                    label="Email Address"
+                    label="Seu E-mail"
                     class="purple-input"/>
                 </v-flex>
                 <v-flex
@@ -49,7 +41,7 @@
                   md6
                 >
                   <v-text-field
-                    label="First Name"
+                    label="Seu primeiro nome"
                     class="purple-input"/>
                 </v-flex>
                 <v-flex
@@ -57,7 +49,7 @@
                   md6
                 >
                   <v-text-field
-                    label="Last Name"
+                    label="Seu sobrenome"
                     class="purple-input"/>
                 </v-flex>
                 <v-flex
@@ -65,21 +57,21 @@
                   md12
                 >
                   <v-text-field
-                    label="Adress"
+                    label="Seu endereço"
                     class="purple-input"/>
                 </v-flex>
                 <v-flex
                   xs12
                   md4>
                   <v-text-field
-                    label="City"
+                    label="Sua cidade"
                     class="purple-input"/>
                 </v-flex>
                 <v-flex
                   xs12
                   md4>
                   <v-text-field
-                    label="Country"
+                    label="Complemento"
                     class="purple-input"/>
                 </v-flex>
                 <v-flex
@@ -87,14 +79,14 @@
                   md4>
                   <v-text-field
                     class="purple-input"
-                    label="Postal Code"
+                    label="CEP"
                     type="number"/>
                 </v-flex>
                 <v-flex xs12>
                   <v-textarea
                     class="purple-input"
-                    label="About Me"
-                    value="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    label="Um pouco sobre você"
+                    value="Por exemplo: não desisto de meus objetivos, sigo sempre pelo caminho mais satisfatório."
                   />
                 </v-flex>
                 <v-flex
@@ -105,7 +97,7 @@
                     class="mx-0 font-weight-light"
                     color="success"
                   >
-                    Update Profile
+                    Atuaizar Perfil
                   </v-btn>
                 </v-flex>
               </v-layout>
@@ -124,18 +116,18 @@
             size="130"
           >
             <img
-              src="https://demos.creative-tim.com/vue-material-dashboard/img/marc.aba54d65.jpg"
+              src="https://uploaddeimagens.com.br/images/002/184/354/original/ts3.png?1562787901"
             >
           </v-avatar>
           <v-card-text class="text-xs-center">
-            <h6 class="category text-gray font-weight-thin mb-3">CEO / CO-FOUNDER</h6>
-            <h4 class="card-title font-weight-light">Alec Thompson</h4>
-            <p class="card-description font-weight-light">Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...</p>
+            <h6 class="category text-gray font-weight-thin mb-3">Desenvolvedor / Programador</h6>
+            <h4 class="card-title font-weight-light">Vitor Santos</h4>
+            <p class="card-description font-weight-light">Quando começar algo, vá até o fim</p>
             <v-btn
               color="success"
               round
               class="font-weight-light"
-            >Follow</v-btn>
+            >Editar</v-btn>
           </v-card-text>
         </material-card>
       </v-flex>

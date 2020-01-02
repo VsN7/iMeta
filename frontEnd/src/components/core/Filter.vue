@@ -25,7 +25,7 @@
       <v-container grid-list-xl>
         <v-layout wrap>
           <v-flex xs12>
-            <div class="text-xs-center body-2 text-uppercase sidebar-filter">Sidebar Filters</div>
+            <div class="text-xs-center body-2 text-uppercase sidebar-filter">Cores do menu</div>
 
             <v-layout justify-center>
               <v-avatar
@@ -42,7 +42,7 @@
           <v-flex
             xs12
           >
-            <div class="text-xs-center body-2 text-uppercase sidebar-filter">Images</div>
+            <div class="text-xs-center body-2 text-uppercase sidebar-filter">Imagens</div>
           </v-flex>
           <v-flex
             v-for="img in images"
@@ -58,29 +58,18 @@
           </v-flex>
           <v-flex xs12>
             <v-btn
-              href="https://www.creative-tim.com/product/vuetify-material-dashboard"
+              href=""
               target="_blank"
               color="success"
               block
             >
-              Free Download
-            </v-btn>
-          </v-flex>
-          <v-flex xs12>
-            <v-btn
-              href="https://demos.creative-tim.com/vuetify-material-dashboard/documentation"
-              target="_blank"
-              class="white--text"
-              color="primary"
-              block
-            >
-              Documentation
+              Tutoriais
             </v-btn>
           </v-flex>
           <v-flex xs12>
             <div class="text-xs-center body-2 text-uppercase">
               <div class=" sidebar-filter">
-                Thank You for Sharing!
+                Obrigado por utilizar este App!
               </div>
 
               <div>

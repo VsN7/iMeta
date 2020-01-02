@@ -13,8 +13,8 @@
       >
         <material-card
           color="green"
-          title="Simple Table"
-          text="Here is a subtitle for this table"
+          title="Casa própria"
+          text="Esta é sua situação atual para a meta: Casa Própria "
         >
           <v-data-table
             :headers="headers"
@@ -49,8 +49,8 @@
           color="green"
           flat
           full-width
-          title="Table on Plain Background"
-          text="Here is a subtitle for this table"
+          title="Carro zero"
+          text="Esta é sua situação atual para a meta: Carro Zero"
         >
           <v-data-table
             :headers="headers"
@@ -88,59 +88,33 @@ export default {
     headers: [
       {
         sortable: false,
-        text: 'Name',
+        text: 'Gastos',
         value: 'name'
       },
       {
         sortable: false,
-        text: 'Country',
+        text: 'Parcelas Restantes',
         value: 'country'
       },
       {
         sortable: false,
-        text: 'City',
+        text: 'Economias',
         value: 'city'
       },
       {
         sortable: false,
-        text: 'Salary',
+        text: 'Situação',
         value: 'salary',
         align: 'right'
       }
     ],
     items: [
       {
-        name: 'Dakota Rice',
-        country: 'Niger',
-        city: 'Oud-Tunrhout',
-        salary: '$35,738'
+        name: '$3000,00',
+        country: '202',
+        city: '$3000,00',
+        salary: 'Preocupante'
       },
-      {
-        name: 'Minerva Hooper',
-        country: 'Curaçao',
-        city: 'Sinaai-Waas',
-        salary: '$23,738'
-      }, {
-        name: 'Sage Rodriguez',
-        country: 'Netherlands',
-        city: 'Overland Park',
-        salary: '$56,142'
-      }, {
-        name: 'Philip Chanley',
-        country: 'Korea, South',
-        city: 'Gloucester',
-        salary: '$38,735'
-      }, {
-        name: 'Doris Greene',
-        country: 'Malawi',
-        city: 'Feldkirchen in Kārnten',
-        salary: '$63,542'
-      }, {
-        name: 'Mason Porter',
-        country: 'Chile',
-        city: 'Gloucester',
-        salary: '$78,615'
-      }
     ]
   })
 }

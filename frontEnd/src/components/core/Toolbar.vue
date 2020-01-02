@@ -100,11 +100,10 @@ import {
 export default {
   data: () => ({
     notifications: [
-      'Mike, John responded to your email',
-      'You have 5 new tasks',
-      'You\'re now a friend with Andrew',
-      'Another Notification',
-      'Another One'
+      'Você não atualizou suas informações hoje',
+      'Você tem 5 novas sugestões',
+      'Feliz Aniversário',
+      'Feliz Ano Novo'
     ],
     title: null,
     responsive: false
