@@ -4,7 +4,7 @@
 
 ## Descrição do projeto
 
-Este projeto foca em gerenciar as metas do usuário (como por exemplo, a compra da casa própria), calculando os seus gastos diários e análisando quais as possibilidades da realização do objetivo, o app também oferece sugestões de onde cortar gastos. É um sistema mobile e também uma plataforma WEB, ou seja, é uma aplicação hibrida.
+Este projeto foca em gerenciar as metas do usuário (como por exemplo, a compra da casa própria), calculando os seus gastos diários e análisando quais as possibilidades da realização do objetivo, o app também oferece sugestões de onde cortar gastos. É uma plataforma WEB.
 
 ## Tecnologias (backEnd - servidor REST)
 
